@@ -43,7 +43,7 @@ apply plugin: 'sonar-runner'
 apply plugin: "org.sonarqube"
 sonarRunner {
     sonarProperties {
-        property "sonar.host.url", "http://localhost:9000/"// Your sonar server address
+        property "sonar.host.url", "http://localhost:8090/"// Your sonar server address
         property "sonar.sources", "src/main/java" // Sources
         property "sonar.projectName", "AndroidSonarQubeDemo" // Your project name
         property "sonar.projectVersion", "1.0" // Your project version
